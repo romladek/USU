@@ -1,5 +1,5 @@
-describe('template spec', () => {
-  it('passes', () => {
+describe('USU test', () => {
+  it('open, type, submit and verify', () => {
     cy.visit('https://en.wikipedia.org/wiki/Main_Page')
 
     cy.get('.cdx-text-input__input').type('Schwarzenegger')
